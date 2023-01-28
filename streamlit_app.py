@@ -7,7 +7,7 @@ from googletrans import Translator
 #title
 st.title('GPTHero')
 #description
-st.write('GPTHero attempts to make ai-generated text appear more human. It has the same capabilities as the latest and greatest -- just with the propensity to write poorly. Feel free to check the output against the GPTZero AI detector to see if it is human or not.')
+st.write('This will answer queries while attmepting to make ai-generated text appear more human. It has the same capabilities as the latest and greatest -- just with the propensity to write poorly. Feel free to check the output against the GPTZero AI detector to see if it is human or not.')
 def generate_text(prompt):
     response = openai.Completion.create(
         engine="text-davinci-003",
